@@ -68,8 +68,15 @@ function generatePassword() {
 
 
     //randomize the password 
+    var userPassword = '';
+
+    for (var count = 0; count < length; count++) {
+       var index = Math.floor(Math.random() * userChoice.length);
+       userPassword += userChoice[index];
+    } 
     
-    var index = Math.floor(Math.random() * userChoice.length);
+    return userPassword;
+
 
     //return randomizes password (this doesn't really count)
 }
