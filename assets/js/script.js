@@ -34,6 +34,10 @@ function generatePassword() {
         // recall current function  
             // we need to save their response to their "length" variable 
     length = prompt("How long do you want your password to be? (Choose a number between 8 and 128");
+    if (length < 8 || length > 128) {
+        alert("Invalid responce!");
+        generatePassword();
+    }
     
 
     //ask user what they want in the password 
