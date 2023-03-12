@@ -28,7 +28,14 @@ passwordText.value = password;
 
 function generatePassword() {
     //ask user how many characters they want 
+        // we are going to use the prompts and boundary of 8-128 characters DONE 
+        // we need an "if" statement to make sure it's valid 
+        // send an alert to use saying invalude responce 
+        // recall current function  
+            // we need to save their response to their "length" variable 
+    length = prompt("How long do you want your password to be? (Choose a number between 8 and 128");
     
+
     //ask user what they want in the password 
     //randomize the password 
     //return randomizes password (this doesn't really count)
