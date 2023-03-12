@@ -40,14 +40,31 @@ function generatePassword() {
     }
 
     //ask user what they want in the password 
-    // prompt user do you want lower case
-    lowerCase = prompt("Do you want lower case?");
-    // prompt do you want upper case
-    upperCase = prompt("Do you want upper case?");
-    // promopt do you want special characters 
-    specialCharacters = prompt("Do you want special characters?");
-    // promot do you want numbers
-    numbers = prompt("Do you want numbers? ");
+        // prompt user do you want lower case
+    var lowerCaseOpt = confirm("Do you want lower case?");
+        // prompt do you want upper case
+    var upperCaseOpt = confirm("Do you want upper case?");
+        // promopt do you want special characters 
+    var specialCharactersOpt = confirm("Do you want special characters?");
+        // promot do you want numbers
+    var numbersOpt = confirm("Do you want numbers? ");
+
+    if (lowerCaseOpt) {
+        userChoice += lowerCase;
+        //adding the user choice with the lower case to see whether they picked lowercaseOpt
+    }
+
+    if (upperCaseOpt) {
+        userChoice += upperCase;
+    }
+
+    if (specialCharactersOpt) {
+        userChoice += specialCharacters;
+    }
+
+    if (numbersOpt) {
+        userChoice += numbers;
+    }
 
 
     //randomize the password 
