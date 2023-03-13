@@ -70,15 +70,14 @@ function generatePassword() {
     //randomize the password 
     var userPassword = '';
 
+    // for ( var count =0; count < length (can't go over the number they picked); count++ (you're adding 1 to the count var))
     for (var count = 0; count < length; count++) {
-       var index = Math.floor(Math.random() * userChoice.length);
-       userPassword += userChoice[index];
+    var index = Math.floor(Math.random() * userChoice.length);
+    userPassword += userChoice[index];
     } 
-    
+
+    //return randomizes password (this doesn't really count)   
     return userPassword;
-
-
-    //return randomizes password (this doesn't really count)
 }
 
 // Add event listener to generate button
