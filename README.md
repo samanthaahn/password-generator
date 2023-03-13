@@ -3,10 +3,12 @@ This is a password generator that will allow you to get a new and unique passwor
 
 ## Desctiption 
 
-
-
+This is a password generator that will provide the user with a unique password. It asks the user a bunch of prompts to create a password specific to what they want. The password will be between 8-128 characters and depending if the user wants, it will include: upper case, lower case, special characters, and numbers. Based on the criteria the user enters, the website will generate a unique password for them. 
+My motivation steamed from my desire to solidify my understanding of Java Script. Using Java Script I was able to create this website. 
+I built this project to showcase my understanding of the concepts I learned furing Module 4.  
 
 ## Deploy link
+
 
 ## Instalation 
 
