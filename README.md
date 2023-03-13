@@ -40,7 +40,7 @@ N/A
 
 ## Credits 
 
-N/A
+HTML and CSS sheets were provided to us by the bootcamp. 
 
 ## License
 
