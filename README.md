@@ -9,6 +9,7 @@ I built this project to showcase my understanding of the concepts I learned furi
 
 ## Deploy link
 
+https://samanthaahn.github.io/password-generator/
 
 ## Instalation 
 
