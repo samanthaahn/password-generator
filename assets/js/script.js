@@ -27,6 +27,7 @@ passwordText.value = password;
 }
 
 function generatePassword() {
+    userChoice= '';
     //ask user how many characters they want 
         // we are going to use the prompts and boundary of 8-128 characters DONE 
         // we need an "if" statement to make sure it's valid DONE 
